@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:gsg-symbols
+EESchema Schematic File Version 4
 LIBS:quince-cache
-EELAYER 25 0
+EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
@@ -47,22 +17,22 @@ $EndDescr
 Text Label 15300 2550 0    40   ~ 0
 P2_8
 $Comp
-L CONN_02X20 J2
+L Connector_Generic:Conn_02x20_Odd_Even J2
 U 1 1 55EAB4B7
-P 15750 2900
-F 0 "J2" H 15750 3950 50  0000 C CNN
-F 1 "NEIGHBOR2" V 15750 2900 50  0000 C CNN
-F 2 "gsg-modules:HEADER-2x20" H 15750 1950 60  0001 C CNN
-F 3 "" H 15750 1950 60  0000 C CNN
-F 4 "Samtec" H 15750 2900 60  0001 C CNN "Manufacturer"
-F 5 "SSQ-120-23-G-D" H 15750 2900 60  0001 C CNN "Part Number"
-F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 15750 2900 60  0001 C CNN "Description"
-F 7 "Alternate: https://www.adafruit.com/products/2223" H 15750 2900 60  0001 C CNN "Note"
-	1    15750 2900
+P 15700 2850
+F 0 "J2" H 15700 3900 50  0000 C CNN
+F 1 "NEIGHBOR2" V 15700 2850 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20" H 15700 1900 60  0001 C CNN
+F 3 "" H 15700 1900 60  0000 C CNN
+F 4 "Samtec" H 15700 2850 60  0001 C CNN "Manufacturer"
+F 5 "SSQ-120-23-G-D" H 15700 2850 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 15700 2850 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 15700 2850 60  0001 C CNN "Note"
+	1    15700 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 55EACE84
 P 15300 1950
 F 0 "#PWR01" H 15300 1700 50  0001 C CNN
@@ -73,7 +43,7 @@ F 3 "" H 15300 1950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 55EAECD0
 P 15300 4300
 F 0 "#PWR02" H 15300 4050 50  0001 C CNN
@@ -84,7 +54,7 @@ F 3 "" H 15300 4300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR03
+L power:VCC #PWR03
 U 1 1 55EAF03E
 P 16200 4300
 F 0 "#PWR03" H 16200 4150 50  0001 C CNN
@@ -97,18 +67,18 @@ $EndComp
 Text Label 16200 1950 2    40   ~ 0
 VBUS
 $Comp
-L CONN_02X20 J1
+L Connector_Generic:Conn_02x20_Odd_Even J1
 U 1 1 55FB1D52
-P 15750 5250
-F 0 "J1" H 15750 6300 50  0000 C CNN
-F 1 "NEIGHBOR1" V 15750 5250 50  0000 C CNN
-F 2 "gsg-modules:HEADER-2x20" H 15750 4300 60  0001 C CNN
-F 3 "" H 15750 4300 60  0000 C CNN
-F 4 "Samtec" H 15750 5250 60  0001 C CNN "Manufacturer"
-F 5 "SSQ-120-23-G-D" H 15750 5250 60  0001 C CNN "Part Number"
-F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 15750 5250 60  0001 C CNN "Description"
-F 7 "Alternate: https://www.adafruit.com/products/2223" H 15750 5250 60  0001 C CNN "Note"
-	1    15750 5250
+P 15700 5200
+F 0 "J1" H 15700 6250 50  0000 C CNN
+F 1 "NEIGHBOR1" V 15700 5200 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20" H 15700 4250 60  0001 C CNN
+F 3 "" H 15700 4250 60  0000 C CNN
+F 4 "Samtec" H 15700 5200 60  0001 C CNN "Manufacturer"
+F 5 "SSQ-120-23-G-D" H 15700 5200 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 15700 5200 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 15700 5200 60  0001 C CNN "Note"
+	1    15700 5200
 	1    0    0    -1  
 $EndComp
 Text Label 16200 4400 2    40   ~ 0
@@ -300,7 +270,7 @@ P2_12
 Text Label 14950 7550 1    40   ~ 0
 P2_13
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 560E00A9
 P 14250 7550
 F 0 "#PWR04" H 14250 7300 50  0001 C CNN
@@ -313,18 +283,18 @@ $EndComp
 Text Notes 14750 7750 1    40   ~ 0
 BOOT
 $Comp
-L CONN_01X20 J7
+L Connector_Generic:Conn_01x20 J7
 U 1 1 560E713A
-P 15200 7000
-F 0 "J7" H 15200 8050 50  0000 C CNN
-F 1 "BONUS_ROW" V 15300 7000 50  0000 C CNN
-F 2 "gsg-modules:HEADER-1x20" H 15200 7000 60  0001 C CNN
-F 3 "" H 15200 7000 60  0000 C CNN
-F 4 "Samtec" H 15200 7000 60  0001 C CNN "Manufacturer"
-F 5 "SSQ-120-23-G-S" H 15200 7000 60  0001 C CNN "Part Number"
-F 6 "CONN RCPT .100\" 20POS SINGLE-ROW STACKING GOLD" H 15200 7000 60  0001 C CNN "Description"
-F 7 "DNP" V 15400 7000 60  0000 C CNN "Note"
-	1    15200 7000
+P 15150 7000
+F 0 "J7" H 15150 8050 50  0000 C CNN
+F 1 "BONUS_ROW" V 15250 7000 50  0000 C CNN
+F 2 "gsg-modules:HEADER-1x20" H 15150 7000 60  0001 C CNN
+F 3 "" H 15150 7000 60  0000 C CNN
+F 4 "Samtec" H 15150 7000 60  0001 C CNN "Manufacturer"
+F 5 "SSQ-120-23-G-S" H 15150 7000 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 20POS SINGLE-ROW STACKING GOLD" H 15150 7000 60  0001 C CNN "Description"
+F 7 "DNP" V 15350 7000 60  0000 C CNN "Note"
+	1    15150 7000
 	0    -1   -1   0   
 $EndComp
 Text Label 14650 7550 1    40   ~ 0
@@ -332,7 +302,7 @@ ADC0_2
 Text Label 14550 7550 1    40   ~ 0
 ADC0_5
 $Comp
-L CONN_01X01 MH3
+L Connector_Generic:Conn_01x01 MH3
 U 1 1 5600EED5
 P 13650 850
 F 0 "MH3" H 13600 950 50  0000 C CNN
@@ -344,7 +314,7 @@ F 4 "DNP" H 13650 850 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5600F9D3
 P 13650 1150
 F 0 "#PWR06" H 13650 900 50  0001 C CNN
@@ -355,7 +325,7 @@ F 3 "" H 13650 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 MH4
+L Connector_Generic:Conn_01x01 MH4
 U 1 1 560100F3
 P 14150 1000
 F 0 "MH4" H 14100 1100 50  0000 C CNN
@@ -367,7 +337,7 @@ F 4 "DNP" H 14150 1000 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 560100F9
 P 14150 1300
 F 0 "#PWR07" H 14150 1050 50  0001 C CNN
@@ -378,7 +348,7 @@ F 3 "" H 14150 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 MH1
+L Connector_Generic:Conn_01x01 MH1
 U 1 1 56010ADB
 P 12650 850
 F 0 "MH1" H 12600 950 50  0000 C CNN
@@ -390,7 +360,7 @@ F 4 "DNP" H 12650 850 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 56010AE1
 P 12650 1150
 F 0 "#PWR08" H 12650 900 50  0001 C CNN
@@ -401,7 +371,7 @@ F 3 "" H 12650 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 MH2
+L Connector_Generic:Conn_01x01 MH2
 U 1 1 56010AE9
 P 13150 1000
 F 0 "MH2" H 13100 1100 50  0000 C CNN
@@ -413,7 +383,7 @@ F 4 "DNP" H 13150 1000 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 56010AEF
 P 13150 1300
 F 0 "#PWR09" H 13150 1050 50  0001 C CNN
@@ -430,7 +400,7 @@ RESET
 Text Label 15050 7550 1    40   ~ 0
 RTC_ALARM
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 56035FE9
 P 16050 7550
 F 0 "#PWR010" H 16050 7300 50  0001 C CNN
@@ -441,7 +411,7 @@ F 3 "" H 16050 7550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 56036BE7
 P 15150 7550
 F 0 "#PWR011" H 15150 7300 50  0001 C CNN
@@ -452,7 +422,7 @@ F 3 "" H 15150 7550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TLV3502 U1
+L gsg-symbols:TLV3502 U1
 U 1 1 5C4CBC68
 P 8700 3450
 F 0 "U1" H 8700 3700 60  0000 C CNN
@@ -463,7 +433,7 @@ F 3 "" H 8700 3450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L Device:C C1
 U 1 1 5C4CBF0F
 P 9300 3050
 F 0 "C1" H 9325 3150 50  0000 L CNN
@@ -474,7 +444,7 @@ F 3 "" H 9300 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 5C4CBFDA
 P 9300 3700
 F 0 "#PWR012" H 9300 3450 50  0001 C CNN
@@ -485,7 +455,7 @@ F 3 "" H 9300 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR013
+L power:VCC #PWR013
 U 1 1 5C4CC081
 P 9400 3300
 F 0 "#PWR013" H 9400 3150 50  0001 C CNN
@@ -496,7 +466,7 @@ F 3 "" H 9400 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 5C4CC1B7
 P 9300 2800
 F 0 "#PWR014" H 9300 2550 50  0001 C CNN
@@ -515,7 +485,7 @@ SGPIO0
 Text Notes 10550 3300 2    40   ~ 0
 SGPIO1
 $Comp
-L R R14
+L Device:R R14
 U 1 1 5C4CCAB7
 P 7850 3850
 F 0 "R14" V 7930 3850 50  0000 C CNN
@@ -527,7 +497,7 @@ F 4 "DNP" V 7750 3850 60  0000 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R16
+L Device:R R16
 U 1 1 5C4CCEE4
 P 8100 3850
 F 0 "R16" V 8180 3850 50  0000 C CNN
@@ -539,7 +509,7 @@ F 4 "DNP" V 8000 3850 60  0000 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L Device:R R10
 U 1 1 5C4CCF97
 P 7350 3850
 F 0 "R10" V 7430 3850 50  0000 C CNN
@@ -551,7 +521,7 @@ F 4 "DNP" V 7250 3850 60  0000 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L Device:R R12
 U 1 1 5C4CCF9E
 P 7600 3850
 F 0 "R12" V 7680 3850 50  0000 C CNN
@@ -563,7 +533,7 @@ F 4 "DNP" V 7500 3850 60  0000 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L Device:R R13
 U 1 1 5C4CD081
 P 7750 3050
 F 0 "R13" V 7830 3050 50  0000 C CNN
@@ -575,7 +545,7 @@ F 4 "DNP" V 7650 3050 60  0000 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L Device:R R15
 U 1 1 5C4CD088
 P 8000 3050
 F 0 "R15" V 8080 3050 50  0000 C CNN
@@ -587,7 +557,7 @@ F 4 "DNP" V 7900 3050 60  0000 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L Device:R R9
 U 1 1 5C4CD08F
 P 7250 3050
 F 0 "R9" V 7330 3050 50  0000 C CNN
@@ -599,7 +569,7 @@ F 4 "DNP" V 7150 3050 60  0000 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L Device:R R11
 U 1 1 5C4CD096
 P 7500 3050
 F 0 "R11" V 7580 3050 50  0000 C CNN
@@ -611,7 +581,7 @@ F 4 "DNP" V 7400 3050 60  0000 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L Device:R R3
 U 1 1 5C4CD525
 P 6150 2800
 F 0 "R3" V 6230 2800 50  0000 C CNN
@@ -622,7 +592,7 @@ F 3 "" H 6150 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R4
+L Device:R R4
 U 1 1 5C4CD62B
 P 6150 3300
 F 0 "R4" V 6230 3300 50  0000 C CNN
@@ -633,7 +603,7 @@ F 3 "" H 6150 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R5
+L Device:R R5
 U 1 1 5C4CD682
 P 6150 3600
 F 0 "R5" V 6230 3600 50  0000 C CNN
@@ -644,7 +614,7 @@ F 3 "" H 6150 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R6
+L Device:R R6
 U 1 1 5C4CD6EA
 P 6150 4100
 F 0 "R6" V 6230 4100 50  0000 C CNN
@@ -655,7 +625,7 @@ F 3 "" H 6150 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 5C4CD9C0
 P 8100 4100
 F 0 "#PWR015" H 8100 3850 50  0001 C CNN
@@ -666,7 +636,7 @@ F 3 "" H 8100 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L power:GND #PWR016
 U 1 1 5C4CDA0A
 P 7850 4100
 F 0 "#PWR016" H 7850 3850 50  0001 C CNN
@@ -677,7 +647,7 @@ F 3 "" H 7850 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 5C4CDA54
 P 7600 4100
 F 0 "#PWR017" H 7600 3850 50  0001 C CNN
@@ -688,7 +658,7 @@ F 3 "" H 7600 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L power:GND #PWR018
 U 1 1 5C4CDA9E
 P 7350 4100
 F 0 "#PWR018" H 7350 3850 50  0001 C CNN
@@ -699,7 +669,7 @@ F 3 "" H 7350 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR019
+L power:VCC #PWR019
 U 1 1 5C4CDD56
 P 8000 2800
 F 0 "#PWR019" H 8000 2650 50  0001 C CNN
@@ -710,7 +680,7 @@ F 3 "" H 8000 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR020
+L power:VCC #PWR020
 U 1 1 5C4CDDD1
 P 7750 2800
 F 0 "#PWR020" H 7750 2650 50  0001 C CNN
@@ -721,7 +691,7 @@ F 3 "" H 7750 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR021
+L power:VCC #PWR021
 U 1 1 5C4CDE1B
 P 7500 2800
 F 0 "#PWR021" H 7500 2650 50  0001 C CNN
@@ -732,7 +702,7 @@ F 3 "" H 7500 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR022
+L power:VCC #PWR022
 U 1 1 5C4CDE65
 P 7250 2800
 F 0 "#PWR022" H 7250 2650 50  0001 C CNN
@@ -743,7 +713,7 @@ F 3 "" H 7250 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L Device:R R7
 U 1 1 5C4CDFBE
 P 6800 3050
 F 0 "R7" V 6880 3050 50  0000 C CNN
@@ -755,7 +725,7 @@ F 4 "DNP" V 6700 3050 60  0000 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L Device:R R8
 U 1 1 5C4CE1BC
 P 6800 3850
 F 0 "R8" V 6880 3850 50  0000 C CNN
@@ -767,18 +737,18 @@ F 4 "DNP" V 6700 3850 60  0000 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X08 P9
+L Connector_Generic:Conn_02x08_Odd_Even P9
 U 1 1 5C4CF2A3
-P 5000 4650
-F 0 "P9" H 5000 5100 50  0000 C CNN
-F 1 "BASEBAND" V 5000 4650 50  0000 C CNN
-F 2 "gsg-modules:HEADER-2x8" H 5000 3450 50  0001 C CNN
-F 3 "" H 5000 3450 50  0001 C CNN
-	1    5000 4650
+P 4950 4600
+F 0 "P9" H 4950 5050 50  0000 C CNN
+F 1 "BASEBAND" V 4950 4600 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x8" H 4950 3400 50  0001 C CNN
+F 3 "" H 4950 3400 50  0001 C CNN
+	1    4950 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L power:GND #PWR023
 U 1 1 5C4CF3B0
 P 4650 5100
 F 0 "#PWR023" H 4650 4850 50  0001 C CNN
@@ -789,7 +759,7 @@ F 3 "" H 4650 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L power:GND #PWR024
 U 1 1 5C4CF715
 P 5350 5100
 F 0 "#PWR024" H 5350 4850 50  0001 C CNN
@@ -820,7 +790,7 @@ Text Label 6400 3600 0    40   ~ 0
 Text Label 6400 4100 0    40   ~ 0
 -IN_B
 $Comp
-L R R1
+L Device:R R1
 U 1 1 5C4D0C31
 P 9900 3300
 F 0 "R1" V 9980 3300 50  0000 C CNN
@@ -831,7 +801,7 @@ F 3 "" H 9900 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L Device:R R2
 U 1 1 5C4D0EC4
 P 9900 3600
 F 0 "R2" V 9980 3600 50  0000 C CNN
@@ -984,7 +954,7 @@ Connection ~ 5350 4600
 Wire Wire Line
 	5250 4600 5350 4600
 Wire Wire Line
-	5350 4300 5350 5100
+	5350 4300 5350 4600
 Wire Wire Line
 	5250 4300 5350 4300
 Connection ~ 4650 5000
@@ -997,7 +967,7 @@ Connection ~ 4650 4400
 Wire Wire Line
 	4750 4400 4650 4400
 Wire Wire Line
-	4650 4300 4650 5100
+	4650 4300 4650 4400
 Wire Wire Line
 	4750 4300 4650 4300
 Wire Wire Line
@@ -1019,23 +989,23 @@ Wire Wire Line
 Wire Wire Line
 	6800 4100 6800 4000
 Wire Wire Line
-	6300 4100 6950 4100
+	6300 4100 6800 4100
 Wire Wire Line
 	6950 4100 6950 3600
 Wire Wire Line
-	6950 3600 8200 3600
+	6950 3600 7250 3600
 Wire Wire Line
-	6800 3500 6800 3700
+	6800 3500 6800 3600
 Wire Wire Line
 	6800 2800 6800 2900
 Wire Wire Line
-	6300 2800 6950 2800
+	6300 2800 6800 2800
 Wire Wire Line
 	6950 2800 6950 3300
 Wire Wire Line
-	6800 3200 6800 3400
+	6800 3200 6800 3300
 Wire Wire Line
-	6800 3400 8200 3400
+	6800 3400 7750 3400
 Wire Wire Line
 	8100 4000 8100 4100
 Wire Wire Line
@@ -1059,7 +1029,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 3500 7500 3200
 Wire Wire Line
-	6800 3500 8200 3500
+	6800 3500 7500 3500
 Connection ~ 7850 3400
 Wire Wire Line
 	7850 3400 7850 3700
@@ -1071,7 +1041,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 3300 8100 3700
 Wire Wire Line
-	6950 3300 8200 3300
+	6950 3300 8000 3300
 Wire Wire Line
 	10050 3300 10250 3300
 Wire Wire Line
@@ -1082,7 +1052,7 @@ Connection ~ 9300 3300
 Wire Wire Line
 	9300 3200 9300 3300
 Wire Wire Line
-	9200 3300 9400 3300
+	9200 3300 9300 3300
 Wire Wire Line
 	9300 3600 9300 3700
 Wire Wire Line
@@ -1294,4 +1264,42 @@ Wire Wire Line
 Wire Wire Line
 	15300 4300 15500 4300
 NoConn ~ 16150 7400
+Wire Wire Line
+	5350 5000 5350 5100
+Wire Wire Line
+	5350 4900 5350 5000
+Wire Wire Line
+	5350 4600 5350 4900
+Wire Wire Line
+	4650 5000 4650 5100
+Wire Wire Line
+	4650 4700 4650 5000
+Wire Wire Line
+	4650 4400 4650 4700
+Wire Wire Line
+	6800 3300 6800 3400
+Wire Wire Line
+	6800 2800 6950 2800
+Wire Wire Line
+	6800 4100 6950 4100
+Wire Wire Line
+	6800 3600 6800 3700
+Wire Wire Line
+	7250 3600 7350 3600
+Wire Wire Line
+	7500 3500 7600 3500
+Wire Wire Line
+	7750 3400 7850 3400
+Wire Wire Line
+	8000 3300 8100 3300
+Wire Wire Line
+	7350 3600 8200 3600
+Wire Wire Line
+	7600 3500 8200 3500
+Wire Wire Line
+	7850 3400 8200 3400
+Wire Wire Line
+	8100 3300 8200 3300
+Wire Wire Line
+	9300 3300 9400 3300
 $EndSCHEMATC
