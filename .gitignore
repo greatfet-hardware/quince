@@ -4,7 +4,12 @@
 *.bck
 $savepcb.*
 *.kicad_pcb-bak
+*.sch-bak
 _autosave*
+
+# kicad cache files
+# *-cacke.lib not ignored, so schematic can be viewed without libraries
+fp-info-cache
 
 # gerber and drill files
 *.gbl
