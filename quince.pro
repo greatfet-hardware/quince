@@ -1,4 +1,4 @@
-update=Tue 03 Sep 2019 11:36:59 PM MDT
+update=Wed 04 Sep 2019 09:22:32 AM MDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -74,11 +74,11 @@ Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=In1.Cu
+Name=C2.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu
+Name=C3.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In3.Cu]
