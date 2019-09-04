@@ -517,13 +517,13 @@ F 3 "" H 10600 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 10850 3250 0    40   ~ 0
-+IN_A
+IN_A+
 Text Label 10850 3450 0    40   ~ 0
--IN_A
+IN_A-
 Text Label 10850 3750 0    40   ~ 0
-+IN_B
+IN_B+
 Text Label 10850 3950 0    40   ~ 0
--IN_B
+IN_B-
 $Comp
 L Device:R R1
 U 1 1 5C4D0C31
@@ -650,15 +650,13 @@ Wire Wire Line
 Wire Wire Line
 	12350 3650 12950 3650
 Wire Wire Line
-	10750 3450 11100 3450
+	10750 3450 11350 3450
 Wire Wire Line
 	10750 3750 11100 3750
 Wire Wire Line
 	11250 3950 11250 3750
 Wire Wire Line
 	11100 3650 11100 3750
-Wire Wire Line
-	11250 3250 11250 3450
 Wire Wire Line
 	13350 3450 13550 3450
 Wire Wire Line
@@ -881,8 +879,6 @@ Wire Wire Line
 Wire Wire Line
 	15200 5150 15400 5150
 NoConn ~ 16300 8750
-Wire Wire Line
-	11100 3450 11100 3550
 Wire Wire Line
 	12450 3450 12550 3450
 $Comp
@@ -1980,10 +1976,6 @@ Wire Wire Line
 Wire Wire Line
 	10750 3950 11250 3950
 Wire Wire Line
-	11100 3550 11350 3550
-Wire Wire Line
-	11250 3450 11350 3450
-Wire Wire Line
 	11250 3750 11350 3750
 Wire Wire Line
 	11100 3650 11350 3650
@@ -2028,15 +2020,15 @@ Wire Wire Line
 Wire Wire Line
 	8250 4700 8250 4900
 Text Label 10000 5050 0    40   ~ 0
-QOPN
+QOP_N
 Text Label 10000 5150 0    40   ~ 0
-QOPP
+QOP_P
 Text Label 10000 2950 0    40   ~ 0
-IOPN
+IOP_N
 Text Label 10000 2850 0    40   ~ 0
-IOPP
+IOP_P
 Text Notes 10450 4200 0    50   ~ 0
-Q channel inverted
+both channels inverted
 Text Notes 10450 3100 0    50   ~ 0
 1.2 V p-p output\n1.0 V common mode
 Text Label 16100 2800 2    40   ~ 0
@@ -2589,9 +2581,9 @@ F 3 "" H 12550 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 8350 3200 0    40   ~ 0
-LOIN
+LOI_N
 Text Label 8350 4900 0    40   ~ 0
-LOIP
+LOI_P
 Text Label 8350 5550 0    40   ~ 0
 QAIN
 Text Label 7650 5400 1    40   ~ 0
@@ -2601,9 +2593,9 @@ IAIN
 Text Label 7550 2750 1    40   ~ 0
 IMXO
 Text Label 7050 2400 0    40   ~ 0
-RFIP
+RFI_P
 Text Label 7050 1900 0    40   ~ 0
-RFIN
+RFI_N
 Text Label 4950 5600 0    40   ~ 0
 VAGC
 Wire Wire Line
@@ -2630,7 +2622,7 @@ F 3 "" H 1900 7250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Notes 12900 3250 0    50   ~ 0
-Interpret SGPIO0 as I and\nSGPIO1 as Q to reverse\nspectrum inversion caused\nby inversion of U2 Q output.
+Interpret SGPIO0 as Q\nand SGPIO1 as I.
 Text Notes 3150 1450 0    50   ~ 0
 18 dB gain in high gain mode\n-5 dB gain in bypass mode
 Text Notes 650  850  0    50   ~ 0
@@ -2835,20 +2827,20 @@ F 3 "" H 10750 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10750 8450 10650 8450
+	10650 8450 10550 8450
 $Comp
 L power:GND #PWR061
 U 1 1 60AA0B62
-P 10650 8450
-F 0 "#PWR061" H 10650 8200 50  0001 C CNN
-F 1 "GND" H 10655 8277 50  0000 C CNN
-F 2 "" H 10650 8450 50  0001 C CNN
-F 3 "" H 10650 8450 50  0001 C CNN
-	1    10650 8450
+P 10550 8450
+F 0 "#PWR061" H 10550 8200 50  0001 C CNN
+F 1 "GND" H 10555 8277 50  0000 C CNN
+F 2 "" H 10550 8450 50  0001 C CNN
+F 3 "" H 10550 8450 50  0001 C CNN
+	1    10550 8450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	11150 8450 11050 8450
+	11150 8450 10950 8450
 Wire Wire Line
 	11150 8350 11150 8450
 $Comp
@@ -3288,12 +3280,12 @@ $EndComp
 $Comp
 L Device:R R31
 U 1 1 609FCD71
-P 10900 8450
-F 0 "R31" H 10970 8496 50  0000 L CNN
-F 1 "3k3" H 10970 8405 50  0000 L CNN
-F 2 "gsg-modules:0402" V 10830 8450 50  0001 C CNN
-F 3 "~" H 10900 8450 50  0001 C CNN
-	1    10900 8450
+P 10800 8450
+F 0 "R31" H 10870 8496 50  0000 L CNN
+F 1 "3k3" H 10870 8405 50  0000 L CNN
+F 2 "gsg-modules:0402" V 10730 8450 50  0001 C CNN
+F 3 "~" H 10800 8450 50  0001 C CNN
+	1    10800 8450
 	0    1    1    0   
 $EndComp
 $Comp
@@ -3564,4 +3556,20 @@ F 3 "" H 4650 900 50  0001 C CNN
 	1    4650 900 
 	1    0    0    -1  
 $EndComp
+Text Label 11350 6050 1    40   ~ 0
+RFOUTA
+Text Label 11250 6050 1    40   ~ 0
+RFOUTB
+Text Label 12400 7400 2    40   ~ 0
+CP
+Text Label 10600 7900 0    40   ~ 0
+CC
+Text Label 10950 8450 0    40   ~ 0
+RSET
+Text Label 11100 8800 0    40   ~ 0
+CN
+Wire Wire Line
+	11250 3250 11250 3550
+Wire Wire Line
+	11250 3550 11350 3550
 $EndSCHEMATC
