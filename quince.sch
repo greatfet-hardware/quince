@@ -2173,62 +2173,18 @@ F 3 "~" H 6850 6200 50  0001 C CNN
 	1    6850 6200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 5F3932EB
-P 1400 4100
-F 0 "J4" H 1318 3875 50  0000 C CNN
-F 1 "Conn_01x01" H 1318 3966 50  0000 C CNN
-F 2 "gsg-modules:TESTPOINT-50MIL" H 1400 4100 50  0001 C CNN
-F 3 "~" H 1400 4100 50  0001 C CNN
-	1    1400 4100
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1900 4100 1600 4100
 Text Label 1900 4100 2    40   ~ 0
 VREF
-$Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 5F3EF5EF
-P 1400 4450
-F 0 "J5" H 1318 4225 50  0000 C CNN
-F 1 "Conn_01x01" H 1318 4316 50  0000 C CNN
-F 2 "gsg-modules:TESTPOINT-50MIL" H 1400 4450 50  0001 C CNN
-F 3 "~" H 1400 4450 50  0001 C CNN
-	1    1400 4450
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1900 4450 1600 4450
 Text Label 1900 4450 2    40   ~ 0
 VCMO
-$Comp
-L Connector_Generic:Conn_01x01 J6
-U 1 1 5F420D72
-P 1400 4800
-F 0 "J6" H 1318 4575 50  0000 C CNN
-F 1 "Conn_01x01" H 1318 4666 50  0000 C CNN
-F 2 "gsg-modules:TESTPOINT-50MIL" H 1400 4800 50  0001 C CNN
-F 3 "~" H 1400 4800 50  0001 C CNN
-	1    1400 4800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1900 4800 1600 4800
 Text Label 1900 4800 2    40   ~ 0
 VGIN
-$Comp
-L Connector_Generic:Conn_01x01 J9
-U 1 1 5F420D7E
-P 1400 5150
-F 0 "J9" H 1318 4925 50  0000 C CNN
-F 1 "Conn_01x01" H 1318 5016 50  0000 C CNN
-F 2 "gsg-modules:TESTPOINT-50MIL" H 1400 5150 50  0001 C CNN
-F 3 "~" H 1400 5150 50  0001 C CNN
-	1    1400 5150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1900 5150 1600 5150
 Text Label 5650 5200 0    40   ~ 0
@@ -2307,32 +2263,10 @@ Wire Wire Line
 	5450 4050 5450 3950
 Text Label 1900 5150 2    40   ~ 0
 VAGC
-$Comp
-L Connector_Generic:Conn_01x01 J10
-U 1 1 5F83E955
-P 1400 5500
-F 0 "J10" H 1318 5275 50  0000 C CNN
-F 1 "Conn_01x01" H 1318 5366 50  0000 C CNN
-F 2 "gsg-modules:TESTPOINT-50MIL" H 1400 5500 50  0001 C CNN
-F 3 "~" H 1400 5500 50  0001 C CNN
-	1    1400 5500
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1900 5500 1600 5500
 Text Label 1900 5500 2    40   ~ 0
 VDT1
-$Comp
-L Connector_Generic:Conn_01x01 J11
-U 1 1 5F83E961
-P 1400 5850
-F 0 "J11" H 1318 5625 50  0000 C CNN
-F 1 "Conn_01x01" H 1318 5716 50  0000 C CNN
-F 2 "gsg-modules:TESTPOINT-50MIL" H 1400 5850 50  0001 C CNN
-F 3 "~" H 1400 5850 50  0001 C CNN
-	1    1400 5850
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1900 5850 1600 5850
 Text Label 1900 5850 2    40   ~ 0
@@ -2391,90 +2325,22 @@ Wire Wire Line
 Connection ~ 6050 5950
 Wire Wire Line
 	6050 5950 6050 4800
-$Comp
-L Connector_Generic:Conn_01x01 J12
-U 1 1 5FE1BDEB
-P 1400 6200
-F 0 "J12" H 1318 5975 50  0000 C CNN
-F 1 "Conn_01x01" H 1318 6066 50  0000 C CNN
-F 2 "gsg-modules:TESTPOINT-50MIL" H 1400 6200 50  0001 C CNN
-F 3 "~" H 1400 6200 50  0001 C CNN
-	1    1400 6200
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1900 6200 1600 6200
 Text Label 1900 6200 2    40   ~ 0
 IOFS
-$Comp
-L Connector_Generic:Conn_01x01 J13
-U 1 1 5FE1BDF7
-P 1400 6550
-F 0 "J13" H 1318 6325 50  0000 C CNN
-F 1 "Conn_01x01" H 1318 6416 50  0000 C CNN
-F 2 "gsg-modules:TESTPOINT-50MIL" H 1400 6550 50  0001 C CNN
-F 3 "~" H 1400 6550 50  0001 C CNN
-	1    1400 6550
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1900 6550 1600 6550
 Text Label 1900 6550 2    40   ~ 0
 QOFS
-$Comp
-L Connector_Generic:Conn_01x01 J14
-U 1 1 5FE1BE03
-P 1400 6900
-F 0 "J14" H 1318 6675 50  0000 C CNN
-F 1 "Conn_01x01" H 1318 6766 50  0000 C CNN
-F 2 "gsg-modules:TESTPOINT-50MIL" H 1400 6900 50  0001 C CNN
-F 3 "~" H 1400 6900 50  0001 C CNN
-	1    1400 6900
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1900 6900 1600 6900
 Text Label 1900 6900 2    40   ~ 0
 ENBL
 Text Notes 1050 5700 1    50   ~ 0
 test points
-$Comp
-L Connector_Generic:Conn_01x01 J15
-U 1 1 5FF2E7B7
-P 1400 7250
-F 0 "J15" H 1318 7025 50  0000 C CNN
-F 1 "Conn_01x01" H 1318 7116 50  0000 C CNN
-F 2 "gsg-modules:TESTPOINT-50MIL" H 1400 7250 50  0001 C CNN
-F 3 "~" H 1400 7250 50  0001 C CNN
-	1    1400 7250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1900 7250 1600 7250
-$Comp
-L Connector_Generic:Conn_01x01 J17
-U 1 1 5FF2E7C3
-P 1400 7600
-F 0 "J17" H 1318 7375 50  0000 C CNN
-F 1 "Conn_01x01" H 1318 7466 50  0000 C CNN
-F 2 "gsg-modules:TESTPOINT-50MIL" H 1400 7600 50  0001 C CNN
-F 3 "~" H 1400 7600 50  0001 C CNN
-	1    1400 7600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1900 7600 1600 7600
-$Comp
-L power:GND #PWR054
-U 1 1 5FF60AEE
-P 1900 7600
-F 0 "#PWR054" H 1900 7350 50  0001 C CNN
-F 1 "GND" V 1905 7472 50  0000 R CNN
-F 2 "" H 1900 7600 50  0001 C CNN
-F 3 "" H 1900 7600 50  0001 C CNN
-	1    1900 7600
-	0    -1   -1   0   
-$EndComp
 Text Notes 4950 5450 0    50   ~ 0
 VGIN DAC/ADC option
 $Comp
@@ -2700,17 +2566,6 @@ Wire Wire Line
 Connection ~ 11250 5300
 Wire Wire Line
 	11250 5300 11250 5400
-$Comp
-L Connector_Generic:Conn_01x01 J16
-U 1 1 612E4EB4
-P 8450 7550
-F 0 "J16" H 8368 7325 50  0000 C CNN
-F 1 "Conn_01x01" H 8368 7416 50  0000 C CNN
-F 2 "gsg-modules:TESTPOINT-50MIL" H 8450 7550 50  0001 C CNN
-F 3 "~" H 8450 7550 50  0001 C CNN
-	1    8450 7550
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8950 7550 8650 7550
 Text Label 8950 7550 2    40   ~ 0
@@ -3009,17 +2864,6 @@ Wire Wire Line
 	13600 7500 13400 7500
 Text Label 13600 7500 2    40   ~ 0
 ENBL
-$Comp
-L Connector_Generic:Conn_01x01 J18
-U 1 1 619A3373
-P 8450 7900
-F 0 "J18" H 8368 7675 50  0000 C CNN
-F 1 "Conn_01x01" H 8368 7766 50  0000 C CNN
-F 2 "gsg-modules:TESTPOINT-50MIL" H 8450 7900 50  0001 C CNN
-F 3 "~" H 8450 7900 50  0001 C CNN
-	1    8450 7900
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8950 7900 8650 7900
 Text Label 8950 7900 2    40   ~ 0
@@ -3210,32 +3054,10 @@ Text Label 12400 7900 2    40   ~ 0
 P1_20
 Wire Wire Line
 	12400 7900 12100 7900
-$Comp
-L Connector_Generic:Conn_01x01 J20
-U 1 1 620C193B
-P 8450 8250
-F 0 "J20" H 8368 8025 50  0000 C CNN
-F 1 "Conn_01x01" H 8368 8116 50  0000 C CNN
-F 2 "gsg-modules:TESTPOINT-50MIL" H 8450 8250 50  0001 C CNN
-F 3 "~" H 8450 8250 50  0001 C CNN
-	1    8450 8250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8950 8250 8650 8250
 Text Label 8950 8250 2    40   ~ 0
 REFIN
-$Comp
-L Connector_Generic:Conn_01x01 J21
-U 1 1 620C1947
-P 8450 8600
-F 0 "J21" H 8368 8375 50  0000 C CNN
-F 1 "Conn_01x01" H 8368 8466 50  0000 C CNN
-F 2 "gsg-modules:TESTPOINT-50MIL" H 8450 8600 50  0001 C CNN
-F 3 "~" H 8450 8600 50  0001 C CNN
-	1    8450 8600
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8950 8600 8650 8600
 Text Label 8950 8600 2    40   ~ 0
@@ -3572,4 +3394,158 @@ Wire Wire Line
 	11250 3250 11250 3550
 Wire Wire Line
 	11250 3550 11350 3550
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5DB6C617
+P 1600 4100
+F 0 "TP1" V 1795 4172 50  0000 C CNN
+F 1 "TestPoint" V 1704 4172 50  0000 C CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 1800 4100 50  0001 C CNN
+F 3 "~" H 1800 4100 50  0001 C CNN
+	1    1600 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5DB71794
+P 1600 4450
+F 0 "TP2" V 1795 4522 50  0000 C CNN
+F 1 "TestPoint" V 1704 4522 50  0000 C CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 1800 4450 50  0001 C CNN
+F 3 "~" H 1800 4450 50  0001 C CNN
+	1    1600 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5DB72C6A
+P 1600 4800
+F 0 "TP3" V 1795 4872 50  0000 C CNN
+F 1 "TestPoint" V 1704 4872 50  0000 C CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 1800 4800 50  0001 C CNN
+F 3 "~" H 1800 4800 50  0001 C CNN
+	1    1600 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5DB72C74
+P 1600 5150
+F 0 "TP4" V 1795 5222 50  0000 C CNN
+F 1 "TestPoint" V 1704 5222 50  0000 C CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 1800 5150 50  0001 C CNN
+F 3 "~" H 1800 5150 50  0001 C CNN
+	1    1600 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5DBB7A89
+P 1600 5500
+F 0 "TP5" V 1795 5572 50  0000 C CNN
+F 1 "TestPoint" V 1704 5572 50  0000 C CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 1800 5500 50  0001 C CNN
+F 3 "~" H 1800 5500 50  0001 C CNN
+	1    1600 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5DBB7A93
+P 1600 5850
+F 0 "TP6" V 1795 5922 50  0000 C CNN
+F 1 "TestPoint" V 1704 5922 50  0000 C CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 1800 5850 50  0001 C CNN
+F 3 "~" H 1800 5850 50  0001 C CNN
+	1    1600 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5DBFC548
+P 1600 6200
+F 0 "TP7" V 1795 6272 50  0000 C CNN
+F 1 "TestPoint" V 1704 6272 50  0000 C CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 1800 6200 50  0001 C CNN
+F 3 "~" H 1800 6200 50  0001 C CNN
+	1    1600 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5DBFC552
+P 1600 6550
+F 0 "TP8" V 1795 6622 50  0000 C CNN
+F 1 "TestPoint" V 1704 6622 50  0000 C CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 1800 6550 50  0001 C CNN
+F 3 "~" H 1800 6550 50  0001 C CNN
+	1    1600 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5DBFC55C
+P 1600 6900
+F 0 "TP9" V 1795 6972 50  0000 C CNN
+F 1 "TestPoint" V 1704 6972 50  0000 C CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 1800 6900 50  0001 C CNN
+F 3 "~" H 1800 6900 50  0001 C CNN
+	1    1600 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5DBFC566
+P 1600 7250
+F 0 "TP10" V 1795 7322 50  0000 C CNN
+F 1 "TestPoint" V 1704 7322 50  0000 C CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 1800 7250 50  0001 C CNN
+F 3 "~" H 1800 7250 50  0001 C CNN
+	1    1600 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP14
+U 1 1 5DC49E53
+P 8650 8600
+F 0 "TP14" V 8845 8672 50  0000 C CNN
+F 1 "TestPoint" V 8754 8672 50  0000 C CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 8850 8600 50  0001 C CNN
+F 3 "~" H 8850 8600 50  0001 C CNN
+	1    8650 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP13
+U 1 1 5DC49E49
+P 8650 8250
+F 0 "TP13" V 8845 8322 50  0000 C CNN
+F 1 "TestPoint" V 8754 8322 50  0000 C CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 8850 8250 50  0001 C CNN
+F 3 "~" H 8850 8250 50  0001 C CNN
+	1    8650 8250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 5DC49E3F
+P 8650 7900
+F 0 "TP12" V 8845 7972 50  0000 C CNN
+F 1 "TestPoint" V 8754 7972 50  0000 C CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 8850 7900 50  0001 C CNN
+F 3 "~" H 8850 7900 50  0001 C CNN
+	1    8650 7900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5DC49E35
+P 8650 7550
+F 0 "TP11" V 8845 7622 50  0000 C CNN
+F 1 "TestPoint" V 8754 7622 50  0000 C CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 8850 7550 50  0001 C CNN
+F 3 "~" H 8850 7550 50  0001 C CNN
+	1    8650 7550
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
