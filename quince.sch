@@ -154,13 +154,13 @@ P6_0
 Text Label 15200 6850 0    40   ~ 0
 P2_0
 Text Notes 16150 7050 0    40   ~ 0
-MISO
+CIPO
 Text Notes 15150 7050 2    40   ~ 0
-MOSI
+COPI
 Text Notes 16150 6950 0    40   ~ 0
 SCK
 Text Notes 15150 6950 2    40   ~ 0
-SSEL
+CS
 Text Label 16200 4700 2    40   ~ 0
 I2C0_SCL
 Text Label 15100 4700 0    40   ~ 0
